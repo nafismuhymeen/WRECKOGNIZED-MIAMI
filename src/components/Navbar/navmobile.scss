@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
+
+.nav-mobile {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    margin-left: 10px;
+    color: white;
+    font-family: "Noto Serif Display", serif;
+    font-size: 18px;
+    line-height: 45.192px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  span {
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+// Minimum display 375px
+@media screen and (min-width: 375px) {
+  .nav-mobile {
+    h1 {
+      font-size: 20px;
+    }
+    span {
+      font-size: 20px;
+    }
+  }
+}
+
+// Minimum display 425px
+@media screen and (min-width: 425px) {
+  .nav-mobile {
+    h1 {
+      font-size: 22px;
+    }
+    span {
+      font-size: 22px;
+    }
+  }
+}
+
+// Minimum display 768px
+@media screen and (min-width: 768px) {
+  .nav-mobile {
+    display: none;
+  }
+}

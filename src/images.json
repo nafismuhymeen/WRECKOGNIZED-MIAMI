@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/Atomik.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 2,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/Miami Style Gods.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 3,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/miami-art-i458984297.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 4,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/nemek.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 5,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/Quirk.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 6,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/Reds.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 7,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/Tesoe.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 8,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/Topoe.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  },
+  {
+    "id": 9,
+    "name": "",
+    "image": "images/graffiti/Miami-Wynwood-Walls/Vulgr.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Walls"
+  }
+  {
+    "id": 10,
+    "name": "",
+    "image": "images/graffiti/PUBLIC-SPACE/public bathroom_.webp",
+    "location": "",
+    "description": "",
+    "artis": "",
+    "category": "Public Property"
+  }
+]
