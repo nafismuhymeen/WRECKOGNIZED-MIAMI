@@ -1,12 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useRecoilState } from "recoil";
-import { navUnderLine, showNavDrawer } from "../../Recoil/navRecoil";
+import { useRecoilState, useRecoilValue } from "recoil";
+import {
+  navUnderLine,
+  showNavDrawer,
+  showNavDrawerDisplay,
+} from "../../Recoil/navRecoil";
 import "./navmobiledrawer.scss";
 
 const NavMobileDrawer = () => {
   // Nav Underline
-  const [underline, setUnderline] = useRecoilState(navUnderLine);
+  const underline = useRecoilValue(navUnderLine);
 
   const currentUnderlin = (currentRoute) => {
     if (currentRoute === underline) {
@@ -17,52 +21,49 @@ const NavMobileDrawer = () => {
 
   // Show Nav Drawer
   const [drawer, setDrawer] = useRecoilState(showNavDrawer);
+  const [drawerDisplay, setDrawerDisplay] =
+    useRecoilState(showNavDrawerDisplay);
 
   return (
-    <div style={{ left: `${drawer}` }} className="nav-mobile-drawer">
+    <div
+      style={{ left: `${drawer}`, opacity: `${drawerDisplay}` }}
+      className="nav-mobile-drawer"
+    >
       <div>
         <div className="header">
           <h1>Menu</h1>
-          <span onClick={() => setDrawer("100%")}>&#10006;</span>
+          <span
+            onClick={() => {
+              setDrawer("100%");
+              setDrawerDisplay("0");
+            }}
+          >
+            &#10006;
+          </span>
         </div>
         <div className="nav-list">
           <Link to="/">
-            <li
-              style={{ borderBottomColor: `${currentUnderlin("Home")}` }}
-              onClick={() => setUnderline("Home")}
-            >
+            <li style={{ borderBottomColor: `${currentUnderlin("Home")}` }}>
               Home
             </li>
           </Link>
           <Link to="/">
-            <li
-              style={{ borderBottomColor: `${currentUnderlin("Gallery")}` }}
-              onClick={() => setUnderline("Gallery")}
-            >
+            <li style={{ borderBottomColor: `${currentUnderlin("Gallery")}` }}>
               Gallery
             </li>
           </Link>
           <Link to="/about">
-            <li
-              style={{ borderBottomColor: `${currentUnderlin("About")}` }}
-              onClick={() => setUnderline("About")}
-            >
+            <li style={{ borderBottomColor: `${currentUnderlin("About")}` }}>
               About Me
             </li>
           </Link>
           <Link to="/">
-            <li
-              style={{ borderBottomColor: `${currentUnderlin("Contact")}` }}
-              onClick={() => setUnderline("Contact")}
-            >
+            <li style={{ borderBottomColor: `${currentUnderlin("Contact")}` }}>
               Contact Me
             </li>
           </Link>
           <Link to="/">
-            <li
-              style={{ borderBottomColor: `${currentUnderlin("Quiz")}` }}
-              onClick={() => setUnderline("Quiz")}
-            >
+            <li style={{ borderBottomColor: `${currentUnderlin("Quiz")}` }}>
               Quiz
             </li>
           </Link>

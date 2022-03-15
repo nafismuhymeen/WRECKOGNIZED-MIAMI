@@ -1,20 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useRecoilState } from "recoil";
+import { useRecoilValue } from "recoil";
 import { navUnderLine } from "../../Recoil/navRecoil";
 import "./navpc.scss";
 
 const NavPc = () => {
   // Nav Underline
-  const [underline, setUnderline] = useRecoilState(navUnderLine);
-
-  const changeUnderline = (currentRoute) => {
-    setUnderline(currentRoute);
-  };
+  const underline = useRecoilValue(navUnderLine);
 
   const currentUnderlin = (currentRoute) => {
     if (currentRoute === underline) {
-      return "wite";
+      return "white";
     }
     return "transparent";
   };
@@ -32,7 +28,6 @@ const NavPc = () => {
               style={{
                 borderColor: `${currentUnderlin("Home")}`,
               }}
-              onClick={() => changeUnderline("Home")}
             >
               Home
             </li>
@@ -42,7 +37,6 @@ const NavPc = () => {
               style={{
                 borderBottomColor: `${currentUnderlin("Gallery")}`,
               }}
-              onClick={() => changeUnderline("Gallery")}
             >
               Gallery
             </li>
@@ -52,7 +46,6 @@ const NavPc = () => {
               style={{
                 borderBottomColor: `${currentUnderlin("About")}`,
               }}
-              onClick={() => changeUnderline("About")}
             >
               {" "}
               About Me
@@ -63,7 +56,6 @@ const NavPc = () => {
               style={{
                 borderBottomColor: `${currentUnderlin("Contact")}`,
               }}
-              onClick={() => changeUnderline("Contact")}
             >
               Contact Me
             </li>
@@ -73,7 +65,6 @@ const NavPc = () => {
               style={{
                 borderBottomColor: `${currentUnderlin("Quiz")}`,
               }}
-              onClick={() => changeUnderline("Quiz")}
             >
               Quiz
             </li>

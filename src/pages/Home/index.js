@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSetRecoilState } from "recoil";
 import Navbar from "../../components/Navbar/index";
+import { navUnderLine } from "../../Recoil/navRecoil";
 import "./home.scss";
 
 const Home = () => {
+  const setUnderLine = useSetRecoilState(navUnderLine);
+
+  // Page On LOad
+  useEffect(() => {
+    setUnderLine("Home");
+  }, []);
   return (
     <React.Fragment>
       <Navbar />
