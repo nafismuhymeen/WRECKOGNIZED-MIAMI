@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import { useSetRecoilState } from "recoil";
 import { showNavDrawer, showNavDrawerDisplay } from "../../Recoil/navRecoil";
 import "./navmobile.scss";
@@ -8,22 +9,36 @@ const NavMobile = () => {
   // Show Nav Drawer
   const setDrawer = useSetRecoilState(showNavDrawer);
   const setDrawerDisplay = useSetRecoilState(showNavDrawerDisplay);
+
+  // Location
+  const location = useLocation();
+
+  // Change Color
+  const changeColor = () => {
+    if (location.pathname === "/") {
+      return "transparent";
+    }
+    return "#79b4b7";
+  };
   return (
-    <React.Fragment>
+    <div>
       <NavMobileDrawer />
-      <div className="nav-mobile">
+      <div
+        style={{ backgroundColor: `${changeColor()}` }}
+        className="nav-mobile"
+      >
         <h1>Wreckognized Miami</h1>
 
         <span
           onClick={() => {
-            setDrawer("0");
+            setDrawer("1");
             setDrawerDisplay("1");
           }}
         >
           &#9776;
         </span>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

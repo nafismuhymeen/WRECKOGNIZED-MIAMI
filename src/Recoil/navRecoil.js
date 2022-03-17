@@ -7,7 +7,7 @@ export const navUnderLine = atom({
 
 export const showNavDrawer = atom({
   key: "showNavDrawer",
-  default: "100%",
+  default: "0",
 });
 
 export const showNavDrawerDisplay = atom({

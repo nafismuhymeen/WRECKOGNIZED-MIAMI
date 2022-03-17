@@ -24,45 +24,43 @@ const NavMobileDrawer = () => {
   const [drawerDisplay, setDrawerDisplay] =
     useRecoilState(showNavDrawerDisplay);
 
+  const closeDrawer = () => {
+    setDrawer("0");
+    setDrawerDisplay("0");
+  };
+
   return (
     <div
-      style={{ left: `${drawer}`, opacity: `${drawerDisplay}` }}
+      style={{ transform: `scale(${drawer})`, opacity: `${drawerDisplay}` }}
       className="nav-mobile-drawer"
     >
       <div>
         <div className="header">
           <h1>Menu</h1>
-          <span
-            onClick={() => {
-              setDrawer("100%");
-              setDrawerDisplay("0");
-            }}
-          >
-            &#10006;
-          </span>
+          <span onClick={closeDrawer}>&#10006;</span>
         </div>
         <div className="nav-list">
-          <Link to="/">
+          <Link to="/" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("Home")}` }}>
               Home
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("Gallery")}` }}>
               Gallery
             </li>
           </Link>
-          <Link to="/about">
+          <Link to="/about" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("About")}` }}>
               About Me
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("Contact")}` }}>
               Contact Me
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("Quiz")}` }}>
               Quiz
             </li>

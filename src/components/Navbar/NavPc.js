@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 import { navUnderLine } from "../../Recoil/navRecoil";
 import "./navpc.scss";
@@ -14,8 +14,19 @@ const NavPc = () => {
     }
     return "transparent";
   };
+
+  // Location
+  const location = useLocation();
+
+  // Change Color
+  const changeColor = () => {
+    if (location.pathname === "/") {
+      return "transparent";
+    }
+    return "#79b4b7";
+  };
   return (
-    <div className="nav-pc">
+    <div style={{ backgroundColor: `${changeColor()}` }} className="nav-pc">
       <div className="logo">
         <Link to="/">
           <h1>Wreckognized Miami</h1>
