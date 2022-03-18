@@ -1,92 +1,177 @@
 [
   {
+    "id": 21,
+    "image": "images/graffiti/Metro trains1 ALSO HEADER.webp",
+    "location": "SW77th Ave Miami,FL",
+    "artist": "MUL",
+    "category": "transit"
+  },
+  {
     "id": 1,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/Atomik.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/Atomik.webp",
+    "location": "Wynwood",
+    "artist": "Atomik",
+    "category": "pieces"
   },
   {
     "id": 2,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/Miami Style Gods.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/Miami Style Gods.webp",
+    "location": "Wynwood",
+    "artist": "MSG(Miami Style Gods)",
+    "category": "pieces"
   },
   {
     "id": 3,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/miami-art-i458984297.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/nemek.webp",
+    "location": "Wynwood NW 24th St",
+    "artist": "Nemek",
+    "category": "pieces"
   },
   {
     "id": 4,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/nemek.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/Quirk.webp",
+    "location": "Wynwood TriRail tracks",
+    "artist": "Quirk",
+    "category": "pieces"
   },
   {
     "id": 5,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/Quirk.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/Reds.webp",
+    "location": "Wynwood NW 25th St",
+    "artist": "Reds",
+    "category": "pieces"
   },
   {
     "id": 6,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/Reds.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/Tesoe.webp",
+    "location": "Wynwood Miami Ave",
+    "artist": "Tesoe 004",
+    "category": "pieces"
   },
   {
     "id": 7,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/Tesoe.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/Topoe.webp",
+    "location": "Topoe",
+    "artist": "Wynwood inbetween parking lot of NW 24th St & NW 25th St",
+    "category": "pieces"
   },
   {
     "id": 8,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/Topoe.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
+    "image": "images/graffiti/Vulgr.webp",
+    "location": "Wynwood NW 24th St",
+    "artist": "Vulgs",
+    "category": "pieces"
   },
   {
     "id": 9,
-    "name": "",
-    "image": "images/graffiti/Miami-Wynwood-Walls/Vulgr.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Walls"
-  }
+    "image": "images/graffiti/BUDA EYE ❤U.webp",
+    "location": "Coral Gables by SW 42nd Ave & Bird Road",
+    "artist": "Buda and Eye<3U",
+    "category": "space"
+  },
   {
     "id": 10,
-    "name": "",
-    "image": "images/graffiti/PUBLIC-SPACE/public bathroom_.webp",
-    "location": "",
-    "description": "",
-    "artis": "",
-    "category": "Public Property"
+    "image": "images/graffiti/public bathroom_.webp",
+    "location": "Veza Sur Brewery",
+    "artist": "Unknown",
+    "category": "space"
+  },
+  {
+    "id": 11,
+    "image": "images/graffiti/public electric box_.webp",
+    "location": "Veza Sur Brewery",
+    "artist": "Unknown",
+    "category": "space"
+  },
+  {
+    "id": 12,
+    "image": "images/graffiti/public electric box_.webp",
+    "location": "NE 24th St",
+    "artist": "Unknown",
+    "category": "space"
+  },
+  {
+    "id": 13,
+    "image": "images/graffiti/public parking.webp",
+    "location": "NW 25th St",
+    "artist": "Unknown",
+    "category": "space"
+  },
+  {
+    "id": 15,
+    "image": "images/graffiti/wreckognized garbage 1.webp",
+    "location": "Parking lot inbetween NW 25th St & Nw 24th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 16,
+    "image": "images/graffiti/wreckognized garbage 2.webp",
+    "location": "Wakefield Brewery NW 24th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 17,
+    "image": "images/graffiti/wreckognized garbage 3.webp",
+    "location": "40 NW 26th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 18,
+    "image": "images/graffiti/wreckognized garbage 4.webp",
+    "location": "NW 23rd St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 19,
+    "image": "images/graffiti/wreckognized garbage 5.webp",
+    "location": "Nw 26th St",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 20,
+    "image": "images/graffiti/wreckognized garbage 6.webp",
+    "location": "SE 3rd Ave",
+    "artist": "Unknown",
+    "category": "garbage"
+  },
+  {
+    "id": 22,
+    "image": "images/graffiti/Metro trains2.webp",
+    "location": "SW 77th Ave Miami,FL",
+    "artist": "Rafos",
+    "category": "transit"
+  },
+  {
+    "id": 23,
+    "image": "images/graffiti/metro train3.webp",
+    "location": "SW 77th Ave Miami,FL",
+    "artist": "Gios",
+    "category": "transit"
+  },
+  {
+    "id": 24,
+    "image": "images/graffiti/Metro trains4.webp",
+    "location": "SW 77th Ave Miami, FL",
+    "artist": "Rague",
+    "category": "transit"
+  },
+  {
+    "id": 25,
+    "image": "images/graffiti/trains 5.webp",
+    "location": "Unknown",
+    "artist": "Apero & Trasr",
+    "category": "transit"
+  },
+  {
+    "id": 14,
+    "image": "images/graffiti/public street sign.webp",
+    "location": "Bouganvillea's Old Florida Tavern \"Bougies\" SW 58th Ave, South Miami FL",
+    "artist": "Unknown",
+    "category": "space"
   }
 ]

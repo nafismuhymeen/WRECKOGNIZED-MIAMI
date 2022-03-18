@@ -43,7 +43,7 @@ const NavPc = () => {
               Home
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/gallery">
             <li
               style={{
                 borderBottomColor: `${currentUnderlin("Gallery")}`,

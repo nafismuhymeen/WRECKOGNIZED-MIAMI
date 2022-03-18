@@ -10,8 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
-    // background-color: #79b4b7;
+    padding: 25px 0;
     .logo {
       margin-left: 10px;
 
@@ -40,7 +39,6 @@
           margin: 0 15px;
           border-bottom-width: 2px;
           border-bottom-style: solid;
-          // border-bottom-color: transparent;
           transition: 0.25s;
           &:hover {
             border-bottom: 2px solid rgb(255, 255, 255) !important;
@@ -54,11 +52,10 @@
 // Minimum display size 1024px
 @media screen and (min-width: 1024px) {
   .nav-pc {
-    height: 120px;
     .logo {
       margin-left: 20px;
       h1 {
-        font-size: 30px;
+        font-size: 28px;
         margin-left: 20px;
       }
     }
@@ -66,7 +63,7 @@
       margin-right: 20px;
       ul {
         li {
-          font-size: 16px;
+          font-size: 14px;
           margin: 0 20px;
         }
       }
@@ -77,12 +74,6 @@
 // Minimum display size 1200px
 @media screen and (min-width: 1200px) {
   .nav-pc {
-    height: 150px;
-    .logo {
-      h1 {
-        font-size: 32.28px;
-      }
-    }
     .navigation {
       ul {
         li {

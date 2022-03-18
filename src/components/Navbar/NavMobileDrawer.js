@@ -45,7 +45,7 @@ const NavMobileDrawer = () => {
               Home
             </li>
           </Link>
-          <Link to="/" onClick={closeDrawer}>
+          <Link to="/gallery" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("Gallery")}` }}>
               Gallery
             </li>
