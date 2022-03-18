@@ -15,7 +15,9 @@ const Home = () => {
     <React.Fragment>
       <Navbar />
       <section className="home">
-        <h1>Know Miami With Graffiti.</h1>
+        <h1 data-aos="zoom-in" data-aos-duration="500">
+          Know Miami With Graffiti.
+        </h1>
 
         <button data-aos="zoom-in" data-aos-delay="500" data-aos-duration="700">
           View Gallery

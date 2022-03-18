@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import React from "react";
 import Gallery from "./pages/Gallery";
+import Quiz from "./pages/Quiz";
 
 AOS.init();
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/quiz" element={<Quiz />} />
     </Routes>
   );
 }

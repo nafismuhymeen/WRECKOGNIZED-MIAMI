@@ -71,7 +71,7 @@ const NavPc = () => {
               Contact Me
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/quiz">
             <li
               style={{
                 borderBottomColor: `${currentUnderlin("Quiz")}`,

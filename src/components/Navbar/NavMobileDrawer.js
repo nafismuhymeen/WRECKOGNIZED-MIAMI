@@ -60,7 +60,7 @@ const NavMobileDrawer = () => {
               Contact Me
             </li>
           </Link>
-          <Link to="/" onClick={closeDrawer}>
+          <Link to="/quiz" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("Quiz")}` }}>
               Quiz
             </li>

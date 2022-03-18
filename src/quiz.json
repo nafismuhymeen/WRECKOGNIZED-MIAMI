@@ -1,0 +1,114 @@
+[
+  {
+    "id": 21,
+    "image": "images/graffiti/Metro trains1 ALSO HEADER.webp",
+    "location": "SW77th Ave Miami,FL",
+    "artist": "MUL",
+    "category": "transit",
+    "options": ["MUL", "Atomik", "MSG(Miami Style Gods)", "Nemek"]
+  },
+  {
+    "id": 1,
+    "image": "images/graffiti/Atomik.webp",
+    "location": "Wynwood",
+    "artist": "Atomik",
+    "category": "pieces",
+    "options": ["MUL", "Atomik", "MSG(Miami Style Gods)", "Nemek"]
+  },
+  {
+    "id": 2,
+    "image": "images/graffiti/Miami Style Gods.webp",
+    "location": "Wynwood",
+    "artist": "MSG(Miami Style Gods)",
+    "category": "pieces",
+    "options": ["Topoe", "Atomik", "MSG(Miami Style Gods)", "Nemek"]
+  },
+  {
+    "id": 3,
+    "image": "images/graffiti/nemek.webp",
+    "location": "Wynwood NW 24th St",
+    "artist": "Nemek",
+    "category": "pieces",
+    "options": ["Topoe", "Atomik", "Tesoe 004", "Nemek"]
+  },
+  {
+    "id": 4,
+    "image": "images/graffiti/Quirk.webp",
+    "location": "Wynwood TriRail tracks",
+    "artist": "Quirk",
+    "category": "pieces",
+    "options": ["Quirk", "Atomik", "Tesoe 004", "Nemek"]
+  },
+  {
+    "id": 5,
+    "image": "images/graffiti/Reds.webp",
+    "location": "Wynwood NW 25th St",
+    "artist": "Reds",
+    "category": "pieces",
+    "options": ["Quirk", "Reds", "Tesoe 004", "Topoe"]
+  },
+  {
+    "id": 6,
+    "image": "images/graffiti/Tesoe.webp",
+    "location": "Wynwood Miami Ave",
+    "artist": "Tesoe 004",
+    "category": "pieces",
+    "options": ["Quirk", "Vulgs", "Tesoe 004", "Topoe"]
+  },
+  {
+    "id": 7,
+    "image": "images/graffiti/Topoe.webp",
+    "location": "Topoe",
+    "artist": "Wynwood inbetween parking lot of NW 24th St & NW 25th St",
+    "category": "pieces",
+    "options": ["Quirk", "Vulgs", "Tesoe 004", "Topoe"]
+  },
+  {
+    "id": 8,
+    "image": "images/graffiti/Vulgr.webp",
+    "location": "Wynwood NW 24th St",
+    "artist": "Vulgs",
+    "category": "pieces",
+    "options": ["Atomik", "Vulgs", "Tesoe 004", "Topoe"]
+  },
+  {
+    "id": 9,
+    "image": "images/graffiti/BUDA EYE ❤U.webp",
+    "location": "Coral Gables by SW 42nd Ave & Bird Road",
+    "artist": "Buda and Eye<3U",
+    "category": "space",
+    "options": ["Atomik", "Vulgs", "Buda and Eye<3U", "Topoe"]
+  },
+  {
+    "id": 22,
+    "image": "images/graffiti/Metro trains2.webp",
+    "location": "SW 77th Ave Miami,FL",
+    "artist": "Rafos",
+    "category": "transit",
+    "options": ["Atomik", "Vulgs", "Buda and Eye<3U", "Rafos"]
+  },
+  {
+    "id": 23,
+    "image": "images/graffiti/metro train3.webp",
+    "location": "SW 77th Ave Miami,FL",
+    "artist": "Gios",
+    "category": "transit",
+    "options": ["Atomik", "Gios", "Buda and Eye<3U", "Rafos"]
+  },
+  {
+    "id": 24,
+    "image": "images/graffiti/Metro trains4.webp",
+    "location": "SW 77th Ave Miami, FL",
+    "artist": "Rague",
+    "category": "transit",
+    "options": ["Vulgs", "Gios", "Buda and Eye<3U", "Rague"]
+  },
+  {
+    "id": 25,
+    "image": "images/graffiti/trains 5.webp",
+    "location": "Unknown",
+    "artist": "Apero & Trasr",
+    "category": "transit",
+    "options": ["Vulgs", "Gios", "Buda and Eye<3U", "Apero & Trasr"]
+  }
+]
