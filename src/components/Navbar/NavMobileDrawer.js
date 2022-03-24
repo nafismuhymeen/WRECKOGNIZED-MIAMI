@@ -55,11 +55,6 @@ const NavMobileDrawer = () => {
               About Me
             </li>
           </Link>
-          <Link to="/" onClick={closeDrawer}>
-            <li style={{ borderBottomColor: `${currentUnderlin("Contact")}` }}>
-              Contact Me
-            </li>
-          </Link>
           <Link to="/quiz" onClick={closeDrawer}>
             <li style={{ borderBottomColor: `${currentUnderlin("Quiz")}` }}>
               Quiz

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useSetRecoilState } from "recoil";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import { navUnderLine } from "../../Recoil/navRecoil";
 import "./about.scss";
@@ -59,6 +60,7 @@ const About = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

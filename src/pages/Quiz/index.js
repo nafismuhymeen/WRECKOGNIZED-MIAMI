@@ -1,6 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useSetRecoilState } from "recoil";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import quizzes from "../../quiz.json";
+import { navUnderLine } from "../../Recoil/navRecoil";
 import "./quiz.scss";
 
 const Quiz = () => {
@@ -27,6 +30,14 @@ const Quiz = () => {
       setPoints((old) => old + 1);
     }
   };
+
+  // Nav UnderLine
+  const setUnderLine = useSetRecoilState(navUnderLine);
+
+  // Page On LOad
+  useEffect(() => {
+    setUnderLine("Quiz");
+  }, []);
   return (
     <React.Fragment>
       <Navbar />
@@ -55,6 +66,7 @@ const Quiz = () => {
           )}
         </section>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

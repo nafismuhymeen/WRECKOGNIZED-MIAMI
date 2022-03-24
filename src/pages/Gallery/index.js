@@ -7,6 +7,7 @@ import images from "../../images.json";
 
 import "./gallery.scss";
 import ImageCard from "../../components/Gallery/ImageCard";
+import Footer from "../../components/Footer";
 
 const Gallery = () => {
   // Nav Underline
@@ -44,6 +45,7 @@ const Gallery = () => {
           </div>
         </section>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };
